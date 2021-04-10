@@ -1,0 +1,111 @@
+body
+{
+    margin: 0px;
+    background-image: url("background.jpg");
+    background-size: 1180px 750px; 
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 70px;
+    float:right;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(14, 100, 187);
+    color: white;
+    text-align: center;
+ }
+
+ input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 10px 22px 0px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 15px;
+  margin: 8px 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 40%;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+.signbtn{
+  float: left;
+  width: 40%;
+
+}
